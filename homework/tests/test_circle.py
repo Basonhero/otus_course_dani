@@ -26,10 +26,10 @@ def test_circle_second():
     circle = Circle(10)
 
     area = circle.area()
-    expected_area = 314
+    expected_area = 314.1592653589793
 
     perimeter = circle.perimeter()
-    expected_perimeter = 62
+    expected_perimeter = 62.83185307179586
 
     assert area == expected_area, f'Area {area} should be equals to {expected_area}'
     assert perimeter == expected_perimeter, f'Perimeter {perimeter} should be equals to {expected_perimeter}'
