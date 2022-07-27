@@ -19,6 +19,17 @@ def save_users_json(users_dct):
     with open('../homework2/result.json', 'w') as f:
         json.dump(users_dct, f, indent=4)
 
+def filter_fields_users(users_dct):
+    for user in users_dct:
+        user_keys = list(user.keys())
+        user_keys.remove('name')
+        user_keys.remove('gender')
+        user_keys.remove('address')
+        user_keys.remove('age')
+        for field in user_keys:
+            user.pop(field)
+    return users_dct
+
 
 def books_generator(books_lst, size):
     result = []
@@ -48,7 +59,7 @@ def ordered_distribution(users, books, books_gen):
     return users
 
 
-users_dict = get_users_dict()
+users_dict = filter_fields_users(get_users_dict())
 books_list = get_books_list()
 users_dict = ordered_distribution(users_dict, books_list, books_generator)
 save_users_json(users_dict)
