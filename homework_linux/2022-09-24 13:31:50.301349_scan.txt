@@ -1,0 +1,41 @@
+Отчёт о состоянии системы:
+Пользователи системы: '_windowserver', 'dunya', 'root', '_driverkit', '_netbios', '_datadetectors', '_cmiodalassistants', '_fpsd', '_spotlight', '_applepay', '_installcoordinationd', '_nsurlsessiond', '_assetcache', '_gamecontrollerd', '_reportmemoryexception', '_accessoryupdater', '_appleevents', '_ctkd', '_captiveagent', '_securityagent', '_locationd', '_hidd', '_softwareupdate', '_coreaudiod', '_mdnsresponder', '_networkd', '_trustd', '_analyticsd', '_distnote', '_displaypolicyd', '_usbmuxd', '_timed', '_iconservices'
+Процессов запущено: 536
+Пользовательских процессов:
+_windowserver: 3
+dunya: 314
+root: 159
+_driverkit: 5
+_netbios: 1
+_datadetectors: 1
+_cmiodalassistants: 4
+_fpsd: 3
+_spotlight: 4
+_applepay: 3
+_installcoordinationd: 1
+_nsurlsessiond: 3
+_assetcache: 3
+_gamecontrollerd: 1
+_reportmemoryexception: 1
+_accessoryupdater: 1
+_appleevents: 2
+_ctkd: 1
+_captiveagent: 1
+_securityagent: 1
+_locationd: 7
+_hidd: 1
+_softwareupdate: 3
+_coreaudiod: 4
+_mdnsresponder: 1
+_networkd: 1
+_trustd: 1
+_analyticsd: 1
+_distnote: 1
+_displaypolicyd: 1
+_usbmuxd: 1
+_timed: 1
+_iconservices: 1
+Всего памяти используется: 56.000000000000114%
+Всего CPU используется: 27.600000000000012%
+Больше всего памяти использует: 13.8% - CE.app/Contents/MacO
+Больше всего CPU использует: 8.9% - -daemon
